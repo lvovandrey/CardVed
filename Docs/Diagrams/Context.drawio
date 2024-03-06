@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-06T19:15:26.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="AmEg3_GNuLJxh0XnTNEj" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2024-03-06T20:00:50.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6IIqHddft0TpM-xh4xcG" version="23.1.5" type="device">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="617.5" y="222" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WcwIFX3eCWG540BLVqSy-1787" value="Управление обучающими&lt;br&gt;&amp;nbsp;материалами через UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0" parent="1745">
+        <mxCell id="WcwIFX3eCWG540BLVqSy-1787" value="Управление обучающими&lt;br&gt;&amp;nbsp;материалами через UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" parent="1745" vertex="1" connectable="0">
           <mxGeometry x="-0.0989" y="-1" relative="1" as="geometry">
             <mxPoint x="11" y="-13" as="offset" />
           </mxGeometry>
@@ -17,21 +17,81 @@
         <mxCell id="1749" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&quot;system&quot;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;CardVed&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; font-weight: normal;&quot;&gt;Обучающая система&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="430" y="310" width="245" height="189.5" as="geometry" />
         </mxCell>
-        <mxCell id="1761" value="&quot;user&quot;&lt;br&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Пользователь &lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(учитель)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Человек, проводящий обучение Ученика с помощью системы&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="740" y="50" width="240" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="WcwIFX3eCWG540BLVqSy-1784" value="&quot;external_system&quot;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Система ситнеза речи&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Стороннее решение, отвечающее за озвучку&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FFB366;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="WcwIFX3eCWG540BLVqSy-1784" value="&quot;external_system&quot;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Система ситнеза речи&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Стороннее решение, отвечающее за озвучку&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=#949494;strokeWidth=2;fillColor=#FFE6CC;fontFamily=Helvetica;fontSize=14;fontColor=#000000;align=center;spacing=5;arcSize=7;perimeterSpacing=2;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="349.75" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="WcwIFX3eCWG540BLVqSy-1785" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WcwIFX3eCWG540BLVqSy-1784" target="1749">
+        <mxCell id="WcwIFX3eCWG540BLVqSy-1785" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WcwIFX3eCWG540BLVqSy-1784" target="1749" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="676" as="sourcePoint" />
             <mxPoint x="355" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WcwIFX3eCWG540BLVqSy-1786" value="Звуковые файлы или&lt;br&gt;поток данных (звук)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WcwIFX3eCWG540BLVqSy-1785">
+        <mxCell id="WcwIFX3eCWG540BLVqSy-1786" value="Звуковые файлы или&lt;br&gt;поток данных (звук)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WcwIFX3eCWG540BLVqSy-1785" vertex="1" connectable="0">
           <mxGeometry x="-0.4853" y="2" relative="1" as="geometry">
             <mxPoint x="33" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1765" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="900" y="299.75" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1761" value="&quot;user_student&quot;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Обучающийся&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(ученик)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Человек, обучающийся с помощью системы&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="fpBq7-ZExDoNskpqYbs2-1765" vertex="1">
+          <mxGeometry y="50" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1764" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" parent="fpBq7-ZExDoNskpqYbs2-1765" vertex="1">
+          <mxGeometry x="96.25" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1766" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="740" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1761" value="&quot;user&quot;&lt;br&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Пользователь &lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;(учитель)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Человек, проводящий обучение Ученика с помощью системы&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="fpBq7-ZExDoNskpqYbs2-1766" vertex="1">
+          <mxGeometry y="50" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1762" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" parent="fpBq7-ZExDoNskpqYbs2-1766" vertex="1">
+          <mxGeometry x="96.25" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1767" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1749" target="fpBq7-ZExDoNskpqYbs2-1761" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="172" as="targetPoint" />
+            <mxPoint x="685" y="318" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1768" value="Выполнение заданий&lt;br&gt;на обучающих матералах&lt;br&gt;через UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" parent="fpBq7-ZExDoNskpqYbs2-1767" vertex="1" connectable="0">
+          <mxGeometry x="-0.0989" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1769" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=6;exitX=0.898;exitY=0.982;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;dashed=1;" parent="1" source="1761" target="fpBq7-ZExDoNskpqYbs2-1764" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1211" y="230" as="targetPoint" />
+            <mxPoint x="990" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1770" value="Непосредственное&lt;br&gt;общение" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" parent="fpBq7-ZExDoNskpqYbs2-1769" vertex="1" connectable="0">
+          <mxGeometry x="-0.0989" y="-1" relative="1" as="geometry">
+            <mxPoint x="59" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1772" value="Пока не известно, будет ли применяться" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="469.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1773" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="432.5" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1774" value="&quot;admin&quot;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Администратор&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Человек, управляющий системой и другими пользователями&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="fpBq7-ZExDoNskpqYbs2-1773" vertex="1">
+          <mxGeometry y="50" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1775" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" parent="fpBq7-ZExDoNskpqYbs2-1773" vertex="1">
+          <mxGeometry x="96.25" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1778" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="1749" target="fpBq7-ZExDoNskpqYbs2-1774" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="172" as="targetPoint" />
+            <mxPoint x="685" y="318" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpBq7-ZExDoNskpqYbs2-1779" value="Управление системой&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;и пользователями через&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;UI администратора" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" parent="fpBq7-ZExDoNskpqYbs2-1778" vertex="1" connectable="0">
+          <mxGeometry x="-0.0989" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
