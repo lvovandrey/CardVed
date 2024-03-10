@@ -1,0 +1,235 @@
+<mxfile host="Electron" modified="2024-03-10T19:45:59.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="psLc15TtHIJ5pFMMCY6b" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="4c29RNRdUP_Loz52Y8jb">
+    <mxGraphModel dx="2927" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G9CLyLBNerquvoPNeNlz-1" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="1280" height="710" as="geometry">
+            <mxRectangle x="30" y="420" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-8" value="Web сайт" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="14.25" y="30" width="691" height="220" as="geometry">
+            <mxRectangle x="240" y="170" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-9" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;UI Пользователя&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-10" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;UI Администратора&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="540" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-11" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;UI Обучающегося&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="204" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-12" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;UI Доп. упражнений&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="370" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-18" value="SPA на базе React TypeScript" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="193.38" y="30" width="304.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-51" value="Разделы сайта, либо отдельные SPA?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="214.63" y="120" width="261.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-65" value="Провайдер TTS&lt;br&gt;(скорее всего библиотека JS)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry x="40" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-8" source="G9CLyLBNerquvoPNeNlz-65" target="G9CLyLBNerquvoPNeNlz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205.75" y="230" as="sourcePoint" />
+            <mxPoint x="255.75" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-8" source="G9CLyLBNerquvoPNeNlz-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="220" as="sourcePoint" />
+            <mxPoint x="40" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-19" value="API&amp;nbsp; доступа к Хранилищу" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="240" y="338" width="200" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-20" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Card.RepoApi&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-19">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-25" value="gRPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-19">
+          <mxGeometry x="70" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-21" value="API доступа к данным пользователей" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="460" y="338" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-22" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Card.UsersApi&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-21">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-29" value="gRPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-21">
+          <mxGeometry x="70" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-35" value="Сервис &lt;br&gt;идентификации" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="705.25" y="338" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-36" value="Identity Server 4.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-35">
+          <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-37" value="API для сторонних разработчиков" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="990" y="338" width="200" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-38" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Card.RepoApi&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-37">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-39" value="WebAPI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-37">
+          <mxGeometry x="70" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-40" value="Сервис синтеза речи" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="14.25" y="338" width="175.75" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-41" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Card.TTS&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-40">
+          <mxGeometry x="27.88" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-70" value="Средство для локального или удаленного синтеза речи&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-40">
+          <mxGeometry x="5.75" y="30" width="175.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-45" value="База данных обучающих&lt;br&gt;материлов" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="240" y="558" width="200" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-46" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;RepoDB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-45">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-47" value="PostgresSQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-45">
+          <mxGeometry x="70" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-48" value="База данных пользователей" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="470" y="558" width="200" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-49" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;UsersDB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-48">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-50" value="PostgresSQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-48">
+          <mxGeometry x="70" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.409;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-40" target="G9CLyLBNerquvoPNeNlz-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="230" as="sourcePoint" />
+            <mxPoint x="102" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-58" value="RabbitMQ&lt;br&gt;синтез звуковых файлов для&amp;nbsp;&lt;br&gt;сохранения в БД" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9CLyLBNerquvoPNeNlz-52">
+          <mxGeometry x="-0.0114" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338.25" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-59" value="gRPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9CLyLBNerquvoPNeNlz-53">
+          <mxGeometry x="0.0702" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559.6" y="320" as="sourcePoint" />
+            <mxPoint x="559.6" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-60" value="gRPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9CLyLBNerquvoPNeNlz-54">
+          <mxGeometry x="-0.0082" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-35" target="G9CLyLBNerquvoPNeNlz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="250" as="sourcePoint" />
+            <mxPoint x="700" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-61" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="408" as="sourcePoint" />
+            <mxPoint x="190" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" target="G9CLyLBNerquvoPNeNlz-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="558" as="sourcePoint" />
+            <mxPoint x="410" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-63" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="528" as="sourcePoint" />
+            <mxPoint x="570" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-73" value="Nginx" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-1">
+          <mxGeometry x="800" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-75" value="в т. ч. балансировка&lt;br&gt;нагрузки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-73">
+          <mxGeometry x="60" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-74" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="G9CLyLBNerquvoPNeNlz-1" source="G9CLyLBNerquvoPNeNlz-8" target="G9CLyLBNerquvoPNeNlz-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="220" as="sourcePoint" />
+            <mxPoint x="850" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="366" y="140" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-16" value="Browser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.75" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9CLyLBNerquvoPNeNlz-73" target="G9CLyLBNerquvoPNeNlz-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-32" value="Любые сторонние приложения" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="210" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9CLyLBNerquvoPNeNlz-37" target="G9CLyLBNerquvoPNeNlz-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="640" as="sourcePoint" />
+            <mxPoint x="930" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-43" value="Сторонний сервис &lt;br&gt;синтеза речи" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="688" width="200" height="130" as="geometry">
+            <mxRectangle x="130" y="220" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-44" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;TTS&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="G9CLyLBNerquvoPNeNlz-43">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-56" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9CLyLBNerquvoPNeNlz-43" target="G9CLyLBNerquvoPNeNlz-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="738" as="sourcePoint" />
+            <mxPoint x="60" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-57" value="Запросы&lt;br&gt;на синтез звука&lt;br&gt;&lt;br&gt;В зависимости&amp;nbsp;&lt;br&gt;от источника любой&lt;br&gt;вариант запроса (REST, &lt;br&gt;JS-либы)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G9CLyLBNerquvoPNeNlz-56">
+          <mxGeometry x="0.01" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9CLyLBNerquvoPNeNlz-72" value="Развертываемая часть" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="320" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
