@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "CarcVed.RepoApi";
+
+package cards;
+
+// The service for Cards.
+service CardsApi {
+  // Sends a greeting
+  rpc GetCards (CardsRequest) returns (CardsReply);
+}
+
+message CardsRequest {
+  UUID name = 1;
+}
+
+message CardsReply {
+  string message = 1;
+}
+
+// Guid wrapper
+message UUID {
+  string value = 1;
+}
