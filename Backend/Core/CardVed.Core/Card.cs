@@ -8,7 +8,8 @@
         public required string Name { get; set; }
         public string? Description { get; set; }
         public required string Image { get; set; }
-        public required Guid Id { get; set; }
+        public required int Id { get; set; }
+        public required Guid Guid { get; set; }
         public required DateTimeOffset CreatedAt { get; set; }
         public required string SoundUrl { get; set; }
     }

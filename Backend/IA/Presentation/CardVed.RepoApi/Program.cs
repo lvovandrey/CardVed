@@ -1,4 +1,4 @@
-using CarcVed.RepoApi.Services;
+using CardVed.RepoApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

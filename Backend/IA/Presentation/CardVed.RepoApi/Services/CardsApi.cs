@@ -1,6 +1,6 @@
 using Grpc.Core;
 
-namespace CarcVed.RepoApi.Services
+namespace CardVed.RepoApi.Services
 {
     public class CardsApiService : CardsApi.CardsApiBase
     {
@@ -14,7 +14,7 @@ namespace CarcVed.RepoApi.Services
         {
             return Task.FromResult(new CardsReply
             {
-                Message = "Some message"
+                Message = "Some message for " + request.Name.Value,
             });
         }
     }

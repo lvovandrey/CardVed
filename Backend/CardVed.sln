@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FCEE6CBE-0C44-48B8-8FCD-3213DF66BA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVed.Application", "App\CardVed.Application\CardVed.Application.csproj", "{AFBE9612-B22E-43B8-99B2-968554E09B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardVed.Application", "App\CardVed.Application\CardVed.Application.csproj", "{AFBE9612-B22E-43B8-99B2-968554E09B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVed.Persistence", "IA\Infrastructure\CardVed.Persistence\CardVed.Persistence.csproj", "{BABCD25A-726B-4BF1-9B0C-6FDB11D7EFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardVed.Persistence", "IA\Infrastructure\CardVed.Persistence\CardVed.Persistence.csproj", "{BABCD25A-726B-4BF1-9B0C-6FDB11D7EFAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVed.Core", "Core\CardVed.Core\CardVed.Core.csproj", "{529616B2-D7BB-4131-9294-B69D3B594A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardVed.Core", "Core\CardVed.Core\CardVed.Core.csproj", "{529616B2-D7BB-4131-9294-B69D3B594A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarcVed.RepoApi", "IA\Presentation\CarcVed.RepoApi\CarcVed.RepoApi.csproj", "{32004DC1-3361-47A8-8B67-FFF55310EB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardVed.RepoApi", "IA\Presentation\CardVed.RepoApi\CardVed.RepoApi.csproj", "{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{529616B2-D7BB-4131-9294-B69D3B594A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{529616B2-D7BB-4131-9294-B69D3B594A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{529616B2-D7BB-4131-9294-B69D3B594A00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32004DC1-3361-47A8-8B67-FFF55310EB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32004DC1-3361-47A8-8B67-FFF55310EB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32004DC1-3361-47A8-8B67-FFF55310EB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32004DC1-3361-47A8-8B67-FFF55310EB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,7 +55,7 @@ Global
 		{AFBE9612-B22E-43B8-99B2-968554E09B88} = {ACC31E46-4CFD-4D01-BA64-4EA30E57E377}
 		{BABCD25A-726B-4BF1-9B0C-6FDB11D7EFAA} = {18C1D3A3-A820-4946-A051-CFCA9C9BD8E8}
 		{529616B2-D7BB-4131-9294-B69D3B594A00} = {7094A2D2-04DC-494A-988A-EE4EC6592F28}
-		{32004DC1-3361-47A8-8B67-FFF55310EB4D} = {FCEE6CBE-0C44-48B8-8FCD-3213DF66BA44}
+		{03D698DB-7BEC-48F3-9EB2-E4B2A22A72DA} = {FCEE6CBE-0C44-48B8-8FCD-3213DF66BA44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4905FD5-ACC8-4AFF-92B3-E35B35B64034}
